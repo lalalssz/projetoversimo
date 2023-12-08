@@ -1,0 +1,173 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat';font-size: 22px;
+}
+
+.paragrafo{
+    margin: 60px;
+}
+
+.imagem{
+    margin: 60px;
+    max-height: 550px;
+    text-align:left;
+}
+
+
+header {
+    background-color: #A642A5;
+    padding: 10px;
+    text-align: center;
+}
+
+
+.centro-lista-menu {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+
+
+.lista-menu {
+    margin: 0 80px;
+}
+
+
+.link-menu {
+    text-decoration: none;
+    color: #ffffff;
+    font-weight: bold;
+}
+
+
+.logo-menu-cima {
+    max-height: 50px;
+}
+
+
+.menu-baixo{
+    display: flex;
+    width: 1312px;
+    height: 40px;
+    padding: 0px 0px;
+    align-items: center;
+    gap: 1000px;
+    flex-shrink: 0;
+    background-color: #A642A5;
+    list-style: none;
+    color: #ffffff;
+    margin: 20px;
+    padding-left: 45px;
+}
+
+.nomeio {
+    text-align: center;
+}
+
+.começo {
+    color: #000;
+font-family:Arial, Helvetica, sans-serif;
+font-size: 16px;
+font-weight: 400;
+line-height: 20px; /* 125% */
+letter-spacing: 0.24px;
+width: 714px;
+height: 310px;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+  }
+  
+  .menu-baixo{
+    display: flex;
+    width: 1312px;
+    height: 40px;
+    padding: 0px 0px;
+    align-items: center;
+    gap: 1000px;
+    flex-shrink: 0;
+    background-color: #A642A5;
+    list-style: none;
+    color: #ffffff;
+    margin: 20px;
+    padding-left: 45px;
+
+
+}
+
+
+footer {
+    background-color: #A642A5;
+    padding: 10px;
+    text-align: center;
+    bottom: 0;
+    left: 0;
+}
+
+
+.logo-menu-baixo {
+    max-height: 50px;
+}
+
+
+.Popup{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color:#661465;
+    font-family: 'Montserrat';
+}
+
+.titulo {
+    text-align: center;
+    color: #E4CCFF;
+}
+
+.desconto {
+    margin: 100px;
+    color: #E4CCFF;
+    font-family: Montserrat;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-align: center;
+}
+
+.inputemail {
+    display: flex;
+    width: 470px;
+    height: 35px;
+    padding: 12px 20px;
+    align-items: center;
+    gap: 10px;
+    flex-shrink: 0;
+    border: 1px solid #E4CCFF;
+}
+
+.ofertas {
+    margin: 20px;
+    color: #E4CCFF;
+    font-size: 16px;
+}
+
+.final {
+    display: inline-flex;
+    padding: 13px 32px;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    background-color: #E4CCFF;
+    width: 300px;
+    height: 50px;
+    margin: 20px;
+}
+
